@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header a {
+    color:blanchedalmond;
+}
+
+.site-title {
+    font-family: "Roboto-Slab", serif;
+    font-size: 80px;
+    font-weight: 100;
+    margin: 0 0 0 20px;
+    padding-top: 30px;
+}
+
+.site-title a:hover {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+}
+
